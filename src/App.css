@@ -34,7 +34,7 @@
   font-weight: 300;
   text-transform: uppercase;
 }
-.text-part {
+.first-section h1:last-child {
   align-self: flex-end;
 }
 .text-row {
@@ -65,9 +65,9 @@
 }
 @media screen and (max-width: 755px) {
   .first-section h1 {
-    line-height: 0.75;
+    line-height: 0.85;
   }
-  .text-part {
+  .first-section h1:last-child {
     align-self: flex-start;
   }
   .text-row {
