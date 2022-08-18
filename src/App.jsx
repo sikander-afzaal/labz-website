@@ -15,7 +15,6 @@ function App() {
       scrollTrigger: {
         trigger: document.querySelector(".fourth-section"),
         start: "top 70%",
-        markers: true,
       },
     });
     fourthTimeline
